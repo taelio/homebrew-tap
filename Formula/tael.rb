@@ -4,7 +4,7 @@
 class Tael < Formula
   desc "Command-line interface for the Tael AI DevOps platform"
   homepage "https://tael.io"
-  version "0.1.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   livecheck do
@@ -15,22 +15,22 @@ class Tael < Formula
   on_macos do
     on_arm do
       url "https://github.com/taelio/cli/releases/download/v#{version}/tael-darwin-arm64"
-      sha256 "5367bab15712c434af379ef02aef982e52ac2fd061aca9eaaecaa5cba1735ef7"
+      sha256 "31e886dc63d5bb97f8fc25f481249bb4023a686a405d9ea0d8b16925e19baaa9"
     end
     on_intel do
       url "https://github.com/taelio/cli/releases/download/v#{version}/tael-darwin-amd64"
-      sha256 "3092619fa60eb7d3fa0f6102fcb255a3ae309c6579d4dd5a4f6c5744ef5c211c"
+      sha256 "92e887fa4269bf60437022bc7f379e01d3df49bb9706768b581d039678e1155a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/taelio/cli/releases/download/v#{version}/tael-linux-arm64"
-      sha256 "a68105f16a05e019b753b0cee5ef21a6c37de197140842580765648c643482c9"
+      sha256 "74e3df40d41efc84b2f8d54787707c2cae94d843c6ceed9914d41a0b5db7cbbd"
     end
     on_intel do
       url "https://github.com/taelio/cli/releases/download/v#{version}/tael-linux-amd64"
-      sha256 "66419e12d520faf8440b79c3000fdcd6923a122fd8d87d507cfa5d9fd99c6967"
+      sha256 "ca5b37077fbd2b7faf4c600656f3e2629e6a1636c427b063c6bdb39ed0479cf2"
     end
   end
 
